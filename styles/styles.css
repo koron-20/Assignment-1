@@ -1,0 +1,312 @@
+/* styles */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+.azeret-mono{
+  font-family: "Azeret Mono", monospace;
+  font-style: normal;
+}
+/* title and download */
+.title{
+  display: flex;
+  justify-content: space-between;
+}
+.name{
+  font-family: "Azeret Mono", monospace;
+  font-style: normal;
+  margin-left:48px;
+  font-weight: 800;
+}
+.download{
+  margin-right: 32px;
+  font-weight:600;
+  border-style: solid;
+  border-width: 1px;
+  padding-right: 12px;
+  padding-left: 12px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+}
+/* banner */
+.banner{
+  width: 100%;
+  display:grid ;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("Hero-bg.png");
+  margin-top: 20px;
+}
+.coderimg{
+  width: 240px;
+  height: 240px;
+  align-items: center;
+  margin-top: 26px;
+}
+.headline{
+  width: 998px;
+  font-size: 48px;
+  text-align: center;
+}
+.descr{
+  
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  width: 852px;
+  height: 52px;
+  text-align: center;
+  margin-left: 100px;
+}
+.button{
+  width: 244px;
+  height: 65px;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 21px 24px 21px 24px;
+  border-radius: 8px;
+  margin-bottom: 36px;
+}
+/* Why web development? */
+.heading{
+  margin-top: 36px;
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.details{
+  text-align: center;
+  margin-left: 180px;
+  color: rgb(13, 19, 33);
+  width: 852px;
+  height: 52px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  margin-bottom: 50px;
+
+}
+/* I will do coding */
+.container{
+  background-color: rgba(13, 19, 33, 0.02);
+  padding: 80px 97px 80px 97px;
+  margin-top: 74px;
+  margin-left: 51px;
+  margin-right: 51px;
+  border-radius: 16px;
+}
+.box{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 97px;
+
+  
+}
+.box h3{
+  color: rgba(13, 19, 33, 0.7);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+}
+.box p{
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  width: 468px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.box button{
+  padding: 12px 20px 12px 20px;
+
+}
+.box button a{
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+
+.box2{
+  margin-top: 32px;
+}
+.box3{
+  margin-top: 32px;
+}
+/* inspiration */
+.det{
+  margin-left: 290px;
+}
+.insp{
+  text-align: center;
+  align-content: center;
+  align-items: center;
+}
+
+/* Current target */
+.cardholder{
+  display: flex;
+  justify-content: space-evenly;
+}
+.cardtitle{
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.carddet{
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.card{
+  width: 284px;
+  height: 219px;
+  background-color: rgba(255, 76, 30, 0.05);
+  padding: 48px;
+}
+.card1{
+  
+  background-color: rgba(255, 76, 30, 0.05);
+}
+.card2{
+  background-color: rgba(0, 76, 232, 0.05);
+}
+.card3{
+  background-color: rgba(255, 223, 0, 0.05);
+}
+.cardholder a{
+
+   color: black;
+
+}
+
+/* My next target */
+.plateholder{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.plate1{
+  position: static;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  padding: 20px;
+}
+.plate1 img{
+  position:relative;
+  width: 100px;
+  height: 100px;
+}
+.text{
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  overflow-wrap: break-word;
+  word-wrap: break-word; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Footer */
+.imgform{
+  display: flex;
+  flex-direction: column;
+  margin-top: 36px;
+  position: relative;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+.back-img{
+  position: block;
+  width: 1140px;
+  height: 313px;
+  border-radius: 16px;
+}
+.feedback{
+  position: absolute;
+  margin-top: 36px;
+}
+.support{
+  font-size: 32px;
+  font-weight: 900px;
+  color: white;
+}
+.help{
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+footer input{
+  width: 548px;
+  height: 57px;
+  padding: 19px 20px 19px 20px;
+  background-color:white ;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+}
+.form{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.form button{
+  padding: 17px 20px 17px 20px;
+  background-color: white;
+  width: 120px;
+  height: 57px;
+  border-radius: 8px;
+  color: black;
+  font-weight: bold;
+}
+/* Last */
+.identity{
+  background-color: rgba(13, 19, 33, 0.03);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.identity .name{
+  margin-left: 36px;
+}
+.identity .icon{
+  margin-right: 36px;
+}
+
+
+
